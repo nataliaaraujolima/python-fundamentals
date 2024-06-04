@@ -29,3 +29,4 @@ print(my_obj_dic.keys()) #retorna keys
 print(my_obj_dic.values()) #reotrna values
 print(my_obj_dic.items()) #retorna tupla com keys e values
 print(my_obj_dic.get("age")) #reotrna values dde uma key especifica
+#27
