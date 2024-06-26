@@ -3,11 +3,11 @@ from http import HTTPStatus
 
 
 class AnimeApi:
-
+    # URL base é uma constante, então não é necessário passá-lo no construtor.
     BASE_URL = 'https://jsonplaceholder.typicode.com'
 
     def __init__(self):
-        pass
+        pass  # operação nula
 
     def get_animes_api(self):
         """
