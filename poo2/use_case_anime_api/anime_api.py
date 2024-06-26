@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from typing import List, Optional
 import requests
 from http import HTTPStatus
+from config import BASE_URL
 
 
 @dataclass
@@ -13,11 +14,10 @@ class Anime:
 
 
 class AnimeApi:
-    BASE_URL = 'https://jsonplaceholder.typicode.com'
 
     @staticmethod
     def get_animes() -> List[Anime]:
-        url = f"{AnimeApi.BASE_URL}/posts"
+        url = f"{BASE_URL}/posts"
 
         try:
             response = requests.get(url)
@@ -32,7 +32,7 @@ class AnimeApi:
 
     @staticmethod
     def get_anime_by_id(anime_id: int) -> Optional[Anime]:
-        url = f"{AnimeApi.BASE_URL}/posts/{anime_id}"
+        url = f"{BASE_URL}/posts/{anime_id}"
 
         try:
             response = requests.get(url)
