@@ -1,0 +1,145 @@
+with nataliaaraujo in python-fundamentals/urllib on  main [?
+] 
+➜  python3 entendendo.py
+Digite o nome do repositório: alucard-2024-sc
+
+<Response [
+  200
+]>
+with nataliaaraujo in python-fundamentals/urllib took 17,
+0s 
+➜  
+with nataliaaraujo in python-fundamentals/urllib on  main [?
+] 
+➜  python3 entendendo.py
+Digite o nome do repositório: alucard-2024-sc
+b'{
+  "type": "repository",
+  "full_name": "cli-python-typer/alucard-2024-sc",
+  "links": {
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc"
+    },
+    "html": {
+      "href": "https://bitbucket.org/cli-python-typer/alucard-2024-sc"
+    },
+    "avatar": {
+      "href": "https://bytebucket.org/ravatar/%7B74e6e24d-099f-42ef-9042-7994574cca47%7D?ts=default"
+    },
+    "pullrequests": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/pullrequests"
+    },
+    "commits": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/commits"
+    },
+    "forks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/forks"
+    },
+    "watchers": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/watchers"
+    },
+    "branches": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/refs/branches"
+    },
+    "tags": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/refs/tags"
+    },
+    "downloads": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/downloads"
+    },
+    "source": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/src"
+    },
+    "clone": [
+      {
+        "name": "https",
+        "href": "https://alucarddev@bitbucket.org/cli-python-typer/alucard-2024-sc.git"
+      },
+      {
+        "name": "ssh",
+        "href": "git@bitbucket.org:cli-python-typer/alucard-2024-sc.git"
+      }
+    ],
+    "hooks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/cli-python-typer/alucard-2024-sc/hooks"
+    }
+  },
+  "name": "alucard-2024-sc",
+  "slug": "alucard-2024-sc",
+  "description": "",
+  "scm": "git",
+  "website": null,
+  "owner": {
+    "display_name": "cli python yper",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/%7Bab95182f-e089-4a0d-9880-d4ce870357de%7D"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/cli-python-typer/avatar/"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bab95182f-e089-4a0d-9880-d4ce870357de%7D/"
+      }
+    },
+    "type": "team",
+    "uuid": "{ab95182f-e089-4a0d-9880-d4ce870357de}",
+    "username": "cli-python-typer"
+  },
+  "workspace": {
+    "type": "workspace",
+    "uuid": "{ab95182f-e089-4a0d-9880-d4ce870357de}",
+    "name": "cli python yper",
+    "slug": "cli-python-typer",
+    "links": {
+      "avatar": {
+        "href": "https://bitbucket.org/workspaces/cli-python-typer/avatar/?ts=1716785459"
+      },
+      "html": {
+        "href": "https://bitbucket.org/cli-python-typer/"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/cli-python-typer"
+      }
+    }
+  },
+  "is_private": true,
+  "project": {
+    "type": "project",
+    "key": "CLIP",
+    "uuid": "{1af9d9c6-7f53-4ed9-8bd9-834e6a0b4f09}",
+    "name": "cli-python-typer",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/cli-python-typer/projects/CLIP"
+      },
+      "html": {
+        "href": "https://bitbucket.org/cli-python-typer/workspace/projects/CLIP"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/user/cli-python-typer/projects/CLIP/avatar/32?ts=1716782381"
+      }
+    }
+  },
+  "fork_policy": "no_public_forks",
+  "created_on": "2024-06-11T01:30:19.610748+00:00",
+  "updated_on": "2024-06-11T01:30:21.598495+00:00",
+  "size": 59880,
+  "language": "",
+  "uuid": "{74e6e24d-099f-42ef-9042-7994574cca47}",
+  "mainbranch": {
+    "name": "main",
+    "type": "branch"
+  },
+  "override_settings": {
+    "default_merge_strategy": true,
+    "branching_model": true
+  },
+  "parent": null,
+  "has_issues": false,
+  "has_wiki": false
+}'
+with nataliaaraujo in python-fundamentals/urllib on  main [?
+] took 9,
+1s 
+➜  
