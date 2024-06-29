@@ -14,6 +14,7 @@ class AnimeApi:
         Buscar todos os animes
         """
         url = f"{self.BASE_URL}/posts"
+        # url = f"{AnimeApi.BASE_URL}/posts"  variavel de classe
 
         try:
             response = requests.get(url)
